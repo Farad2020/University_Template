@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main_block {
+    background-color: #F7FAFC;
+}
+
+.sec_block {
+    background-color: #ffffff;
+}
+
+.my_banner {
+    max-height: 80vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.my_banner_img {
+    max-height: 80vh;
+    max-width: 100vw;
+}
+
+.mini_img {
+    height: 40px;
+}
+
+.mini_banner {}
+
+.mini_banner_img {
+    height: 150px;
+    width: auto;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar-nav .nav-item:not(:last-child)::after {
+    content: "";
+    border: .1rem solid #e2e2e2;
+    border-width: 0 2px 0 0;
+    position: absolute;
+    right: -3px;
+    top: 30%;
+    height: 50%;
+}
+
+.rekt_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rekt_li {
+    margin: 0;
+    padding: 0;
+}
+
+.uni_int {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.uni_int_li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.uni_int_li:before {
+    content: "⚜️";
+    padding-right: 5px;
+}
+
+.stud_org {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.stud_org_li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.stud_org_li:before {
+    content: "👾";
+    padding-right: 5px;
+}
+
+.footer{
+    background-color: #343A40;
+    margin: 0;
+    padding: 0;
+    min-height: 10vh;
+}
+
+.footer_logo{
+    height: 25px;
+}
