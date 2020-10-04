@@ -1,6 +1,29 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
+}
+
+.go_top_btn{
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    bottom: 6rem;
+    right: 4rem;
+
+    background: #b9e3ff;
+    border-radius: 50%;
+    padding-top: .8rem;
+    
+
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: x-large;
 }
 
 .main_block {
